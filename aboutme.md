@@ -5,4 +5,5 @@ subtitle: Why you'd want to hire me
 ---
 
 My name is Israel Baral
-Here's my Resume
+
+Here's my resume: https://www.linkedin.com/in/ibaral/
