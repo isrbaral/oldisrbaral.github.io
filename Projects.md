@@ -47,9 +47,10 @@ javascript:(function(){let b='https://www.kosher.com/recipe/print/'+window.locat
   * This will open the print page in a new tab
 * Click on the bookmarklet again
   * This will apply the nicer style
-* Hold the phone in the horizontal position
+* Hold the phone horizontally
 	* Open the Share sheet (while the phone is still horizontal)
-		* Swipe down until you find "Markup", tap on that
-		* Tap on the Share button again (upper right corner)
-		* Swipe down and find "Print"
+		* (Share icon is in the top right) 
+	* Swipe down until you find "Markup", tap on that (still horizontal)
+	* Tap on the Share icon again (upper right corner)
+		* Swipe down and find "Print" (you can now re-orient to vertical again)
 * Print and Enjoy!
