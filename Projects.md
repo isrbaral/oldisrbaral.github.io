@@ -8,19 +8,20 @@ subtitle: Things I've made
 
 I created this bookmarklet to fix some of the more annoying default styles used by the print CSS that make it difficult to read the page.
 
-## To Install (Desktop):
+### To Install (Desktop):
 Simply drag this to your bookmarks bar:
 [Kosher.com Print Restyler](javascript:(function(){let b='https://www.kosher.com/recipe/print/'+window.location.pathname.match(/\d+$/g);if(window.location.href!=b)window.open(b,'_blank');else{document.getElementsByTagName('header')[0].setAttribute('style','background-color:#fff');let a=document.styleSheets[2];a.insertRule('.print{font-size:14pt!important}'),a.insertRule('.recipe-print__directions ol>li{line-height:1.2!important}'),a.insertRule('.recipe-print__callout-meta-description{line-height:1.2!important}'),a.insertRule('.recipe-print__callout-meta-container::before{font-size:0!important;}'),a.insertRule('.recipe-print__callout{font-size:9pt!important}');let c=document.getElementsByTagName('use');for(let d=0;d<c.length;d++)c[d].setAttribute('fill','#7a087a');window.print();}})())
 
-## To Use (Desktop):
+### To Use (Desktop):
 1. Navigate to a recipe page: e.g. [https://www.kosher.com/recipe/quinoa-stuffed-chicken-2932](https://www.kosher.com/recipe/quinoa-stuffed-chicken-2932)
-1. Click on the bookmarklet
+2. Click on the bookmarklet
   1. This will open the print page in a new tab
-1. Click on the bookmarklet again
+3. Click on the bookmarklet again
   1. This will apply the nicer style
-1. Print and Enjoy!
+4. Print and Enjoy!
 
-## To Install (iOS: Safari):
+## Install on Mobile
+### To Install (iOS: Safari):
 
 1. Copy the code below by selecting all and then tapping "Copy" from the context menu:
 ```javascript
@@ -28,8 +29,8 @@ javascript:(function(){let b='https://www.kosher.com/recipe/print/'+window.locat
 ```
 2. Create a bookmark on the current page (don't worry you're gonna change it right away)
 	1. Share button
-	1. Add Bookmark
-	1. Rename the bookmark to something like "Kosher.com Better Print"
+	2. Add Bookmark
+	3. Rename the bookmark to something like "Kosher.com Better Print"
 3. Open Favorites
 	1. The open book icon between the share icon and the tabs icon
 	1. Make sure you're on the bookmarks tab (Open book icon at the top left)
@@ -41,7 +42,7 @@ javascript:(function(){let b='https://www.kosher.com/recipe/print/'+window.locat
 	1. Rename the bookmarklet to something like "Kosher.com Better Print"
 	1. Tap "Done" x3
 
-## To Use (iOS: Safari):
+### To Use (iOS: Safari):
 1. Navigate to a recipe page: e.g. [https://www.kosher.com/recipe/quinoa-stuffed-chicken-2932](https://www.kosher.com/recipe/quinoa-stuffed-chicken-2932)
 1. Open your bookmarks and tap on the bookmarklet
   1. This will open the print page in a new tab
